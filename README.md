@@ -12,13 +12,13 @@ Project Links
 - Live application: <!-- Add link -->
 
 # Team Members
-| Name | Role | GitHub |
-| Silje Reppe | Scrum | MissAdelliah |
-| Julie Thronæs | QA | |
-| Anthony Apicella | Designer | |
-| Priscilla Neeraas | Developer | |
-| Nicklas Øen | Developer | |
-| Tomine Rønningen Haug | Developer, SEO & Analytics | |
+Name - Role - GitHub 
+Silje Reppe - Scrum - MissAdelliah
+Julie Thronæs - QA 
+Anthony Apicella - Designer
+Priscilla Neeraas - Developer
+Nicklas Øen - Developer 
+Tomine Rønningen Haug - Developer, SEO & Analytics 
 
 # Features
 - Recipe feed, text search and category filtering
