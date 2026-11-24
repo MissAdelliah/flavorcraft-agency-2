@@ -3,22 +3,30 @@ Description:
 A recipe discovery web application developed for FlavorCraft Labs as part of Noroff's Agency 2 course. The application aims to reduce food waste and simplify recipe discovery through intuitive search, filtering and a distraction-free cooking experience.
 
 Product Owner: Monde Sineke
-Team: Alpha
-Project Links
-- Noroff API documentation
-- Recipe Book API
-- Figma: <!-- Add link -->
-- GitHub Projects: <!-- Add link -->
-- Live application: <!-- Add link -->
+
+## Project Links
+
+- [Noroff API Documentation](https://docs.noroff.dev/)
+- [Recipe Book API](https://v2.api.noroff.dev/recipe-book/recipes)
+- [Figma – Client Design Reference](https://www.figma.com/design/FAGzx9gqzNiLzP17GTyMQ1/Smart-Recipe-Book-Design?node-id=0-1&t=6xM4B1kADaljVm83-1)
+- Team Figma Design: (https://www.figma.com/design/GEcU5wTsvtKA4qcJuANcV9/flavorcraft?node-id=0-1&t=rv71A1LM9GEsDKcL-1)
+- GitHub Projects: TBD
+- Live Application: TBD
+
+## Design System & UI Customization
+
+The client has provided a preliminary Figma design as a baseline reference.
+The provided design must not be directly replicated. The team is expected to develop its own visual identity, design system and user experience based on customer interviews, research findings and client requirements.
+The final design should prioritise accessibility, responsiveness, usability and a distraction-free recipe discovery experience.
 
 # Team Members
 Name - Role - GitHub 
-Silje Reppe - Scrum - MissAdelliah
-Julie Thronæs - QA 
-Anthony Apicella - Designer
-Priscilla Neeraas - Developer
-Nicklas Øen - Developer 
-Tomine Rønningen Haug - Developer, SEO & Analytics 
+- Silje Reppe | Scrum | MissAdelliah
+- Julie Thronæs | QA | juliethron
+- Anthony Apicella | Designer
+- Priscilla Neeraas | Developer
+- Nicklas Øen | Developer 
+- Tomine Rønningen Haug | Developer, SEO & Analytics | tominehaug
 
 # Features
 - Recipe feed, text search and category filtering
@@ -74,19 +82,16 @@ Protect the shared branches. Changes must receive at least one peer approval and
 # Quality Assurance
 The application will be tested for functionality, responsiveness, accessibility and performance. The target is a Lighthouse score of 90+ in Performance, Accessibility and SEO.
 
-
-
 ## Documentation
 
 - [CONTRIBUTING.md](CONTRIBUTING.md) — Contribution guidelines, Git workflow, coding standards and team collaboration.
 - [AI_LOG.md](AI_LOG.md) — Responsible AI usage guidelines and documentation of AI-assisted contributions.
+- [WORKFLOW_FRAMEWORK_CONDUCT.md](WORKFLOW_FRAMEWORK_CONDUCT.md)  - Not supposed to be updated or added to, Agile workflow, team responsibilities, communication, professional conduct and conflict resolution.
 
 ### Updating the AI Log
-
 All team members are responsible for documenting significant AI usage throughout the project.
 
 #### Option 1: During an active task
-
 If you use AI while working on an assigned task, update `AI_LOG.md` within your existing working branch.
 
 Open the file:
@@ -106,7 +111,6 @@ git push
 Include the changes in your existing pull request. There is no need to create a separate branch or pull request.
 
 #### Option 2: After a completed task
-
 If you forgot to document your AI usage and your original pull request has already been merged, create a separate documentation branch.
 
 Update your local development branch:
