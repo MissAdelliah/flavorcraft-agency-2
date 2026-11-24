@@ -36,7 +36,8 @@ Name - Role - GitHub
 - Dynamic metadata, Open Graph and Recipe JSON-LD
 - Analytics and heatmapping
 
-| Tool | Technology |
+## EXAMPLE (needs to me established) (devs to update)
+| Tool | Technology | 
 | --- | --- |
 | Framework | <!-- Add selected framework --> |
 | Language | <!-- JavaScript or TypeScript --> |
@@ -50,6 +51,73 @@ Name - Role - GitHub
 | Testing | <!-- Add selected tools --> |
 | Analytics | <!-- Add selected tool --> |
 | Deployment | <!-- Add hosting platform --> |
+
+
+## Project Folder Structure EXAMPLE (needs to be established) (devs to update)
+
+The project follows a modular folder structure based on introduced in the Agency 2 course material. 
+The proposed structure is subject to the team's final framework and technology stack decisions.
+
+```text
+flavorcraft-agency-2/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   ├── workflows/
+│   └── pull_request_template.md
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │   ├── fonts/
+│   │   ├── icons/
+│   │   └── images/
+│   │
+│   ├── components/
+│   │   ├── ui/
+│   │   ├── recipes/
+│   │   ├── search/
+│   │   └── favorites/
+│   │
+│   ├── context/
+│   ├── hooks/
+│   ├── layouts/
+│   ├── pages/
+│   ├── routes/
+│   ├── services/
+│   │   ├── api/
+│   │   └── analytics/
+│   │
+│   ├── styles/
+│   ├── types/
+│   ├── utils/
+│   │   └── seo/
+│   │
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── tests/
+│   ├── unit/
+│   ├── integration/
+│   └── e2e/
+│
+├── .env.example
+├── .gitignore
+├── .prettierrc
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── vite.config.ts
+│
+├── AI_LOG.md
+├── CLIENT_BRIEF.md
+├── CONTRIBUTING.md
+├── WORKFLOW_FRAMEWORK_CONDUCT.md
+└── README.md
+```
+
 
 # Getting Started
 Prerequisites
