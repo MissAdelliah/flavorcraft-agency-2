@@ -10,7 +10,7 @@ Product Owner: Monde Sineke
 - [Recipe Book API](https://v2.api.noroff.dev/recipe-book/recipes)
 - [Figma – Client Design Reference](https://www.figma.com/design/FAGzx9gqzNiLzP17GTyMQ1/Smart-Recipe-Book-Design?node-id=0-1&t=6xM4B1kADaljVm83-1)
 - Team Figma Design: (https://www.figma.com/design/GEcU5wTsvtKA4qcJuANcV9/flavorcraft?node-id=0-1&t=rv71A1LM9GEsDKcL-1)
-- GitHub Projects: TBD
+- GitHub Projects: (https://github.com/users/MissAdelliah/projects/11)
 - Live Application: TBD
 
 ## Design System & UI Customization
