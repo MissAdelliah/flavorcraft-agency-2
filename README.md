@@ -29,7 +29,7 @@ Name - Role - GitHub
 - Anthony Apicella | Designer
 - Priscilla Neeraas | Developer
 - Nicklas Øen | Developer
-- Tomine Rønningen Haug | Developer, SEO & Analytics | tominehaug
+- Tomine Rønningen Haug | SEO & Analytics | tominehaug
 
 # Features
 
