@@ -1,4 +1,5 @@
 # flavorcraft-agency-2 Team Alpha
+
 Description:
 A recipe discovery web application developed for FlavorCraft Labs as part of Noroff's Agency 2 course. The application aims to reduce food waste and simplify recipe discovery through intuitive search, filtering and a distraction-free cooking experience.
 
@@ -20,15 +21,18 @@ The provided design must not be directly replicated. The team is expected to dev
 The final design should prioritise accessibility, responsiveness, usability and a distraction-free recipe discovery experience.
 
 # Team Members
-Name - Role - GitHub 
+
+Name - Role - GitHub
+
 - Silje Reppe | Scrum | MissAdelliah
 - Julie Thronæs | QA | juliethron
 - Anthony Apicella | Designer
 - Priscilla Neeraas | Developer
-- Nicklas Øen | Developer 
+- Nicklas Øen | Developer
 - Tomine Rønningen Haug | Developer, SEO & Analytics | tominehaug
 
 # Features
+
 - Recipe feed, text search and category filtering
 - Individual recipe pages with ingredients and instructions
 - Saved recipes using localStorage
@@ -36,26 +40,26 @@ Name - Role - GitHub
 - Dynamic metadata, Open Graph and Recipe JSON-LD
 - Analytics and heatmapping
 
-## EXAMPLE (needs to me established) (devs to update)
-| Tool | Technology | 
-| --- | --- |
-| Framework | <!-- Add selected framework --> |
-| Language | <!-- JavaScript or TypeScript --> |
-| Styling | <!-- Add selected styling solution --> |
-| Package manager | <!-- Add selected package manager --> |
-| API | Noroff Recipe Book API v2 |
-| Design | Figma |
-| Version control | Git & GitHub |
-| Project management | GitHub Projects |
-| Performance | Google Lighthouse |
-| Testing | <!-- Add selected tools --> |
-| Analytics | <!-- Add selected tool --> |
-| Deployment | <!-- Add hosting platform --> |
+## Tech Stack
 
+| Tool               | Technology                 |
+| ------------------ | -------------------------- |
+| Framework          | Next.js (React)            |
+| Language           | TypeScript                 |
+| Styling            | Tailwind                   |
+| Package manager    | npm                        |
+| API                | Noroff Recipe Book API v2  |
+| Design             | Figma                      |
+| Version control    | Git & GitHub               |
+| Project management | GitHub Projects            |
+| Performance        | Google Lighthouse          |
+| Testing            | Manual testing             |
+| Analytics          | <!-- Add selected tool --> |
+| Deployment         | Vercel                     |
 
 ## Project Folder Structure EXAMPLE (needs to be established) (devs to update)
 
-The project follows a modular folder structure based on introduced in the Agency 2 course material. 
+The project follows a modular folder structure based on introduced in the Agency 2 course material.
 The proposed structure is subject to the team's final framework and technology stack decisions.
 
 ```text
@@ -118,14 +122,16 @@ flavorcraft-agency-2/
 └── README.md
 ```
 
-
 # Getting Started
+
 Prerequisites
+
 - Git
 - Node.js (version to be confirmed)
 - Access to the shared GitHub repository
 
 # Installation
+
 Clone the repository and navigate into the project directory:
 git clone <repository-url>
 cd <repository-name>
@@ -137,29 +143,33 @@ npm run dev
 Open the local development URL shown in the terminal.
 
 # Git Workflow
+
 main — production-ready code
 develop — integration branch
-feature/* — new features
-bugfix/* — bug fixes
-release/* — release preparation
-hotfix/* — urgent production fixes
+feature/_ — new features
+bugfix/_ — bug fixes
+release/_ — release preparation
+hotfix/_ — urgent production fixes
 
 Create a branch for each assigned task. Use semantic commit messages and link pull requests to their corresponding GitHub issues.
 Protect the shared branches. Changes must receive at least one peer approval and QA sign-off before merging into main.
 
 # Quality Assurance
+
 The application will be tested for functionality, responsiveness, accessibility and performance. The target is a Lighthouse score of 90+ in Performance, Accessibility and SEO.
 
 ## Documentation
 
 - [CONTRIBUTING.md](CONTRIBUTING.md) — Contribution guidelines, Git workflow, coding standards and team collaboration.
 - [AI_LOG.md](AI_LOG.md) — Responsible AI usage guidelines and documentation of AI-assisted contributions.
-- [WORKFLOW_FRAMEWORK_CONDUCT.md](WORKFLOW_FRAMEWORK_CONDUCT.md)  - Not supposed to be updated or added to, Agile workflow, team responsibilities, communication, professional conduct and conflict resolution.
+- [WORKFLOW_FRAMEWORK_CONDUCT.md](WORKFLOW_FRAMEWORK_CONDUCT.md) - Not supposed to be updated or added to, Agile workflow, team responsibilities, communication, professional conduct and conflict resolution.
 
 ### Updating the AI Log
+
 All team members are responsible for documenting significant AI usage throughout the project.
 
 #### Option 1: During an active task
+
 If you use AI while working on an assigned task, update `AI_LOG.md` within your existing working branch.
 
 Open the file:
@@ -179,6 +189,7 @@ git push
 Include the changes in your existing pull request. There is no need to create a separate branch or pull request.
 
 #### Option 2: After a completed task
+
 If you forgot to document your AI usage and your original pull request has already been merged, create a separate documentation branch.
 
 Update your local development branch:
@@ -218,4 +229,3 @@ Create a pull request targeting `develop` and request a peer review.
 - Do not remove or modify another contributor's entries without agreement.
 - Do not push documentation changes directly to protected branches.
 - Changes to contribution guidelines must be agreed upon by the team.
-
