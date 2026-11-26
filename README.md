@@ -156,7 +156,36 @@ Protect the shared branches. Changes must receive at least one peer approval and
 
 # Quality Assurance
 
-The application will be tested for functionality, responsiveness, accessibility and performance. The target is a Lighthouse score of 90+ in Performance, Accessibility and SEO.
+The application will undergo manual and automated testing to ensure functionality, responsiveness, accessibility and reliability.
+
+## Testing Tools
+
+- **Manual Testing:** Browser testing using Chrome DevTools to verify functionality and responsive layouts across different screen sizes.
+- **Bug Tracking:** GitHub Issues to document, track and manage reported bugs.
+- **Automated Testing:** Testing framework to be confirmed with the development team.
+- **Code Quality:** ESLint for identifying potential code issues and Prettier for consistent code formatting.
+- **Performance Testing:** Google Lighthouse to evaluate Performance, Accessibility and SEO.
+
+## Testing Procedures
+
+1. Developers implement and perform initial checks on their assigned features.
+2. Completed features are moved to the In Review/QA column on GitHub Projects.
+3. QA tests functionality against the relevant requirements and acceptance criteria.
+4. Bugs are documented in GitHub Issues and assigned for resolution.
+5. Developers address reported issues and request another QA review.
+6. QA approval is required before changes are merged into the main branch.
+
+## Testing Commands
+
+Testing and code quality commands will be documented once the development environment and tooling have been finalised.
+
+## Quality Standards
+
+- Test functionality across desktop, tablet and mobile layouts.
+- Verify loading states, empty states and API error handling.
+- Check accessibility and usability.
+- Perform regression testing when new features are introduced.
+- Aim for Lighthouse scores of 90+ in Performance, Accessibility and SEO.
 
 ## Documentation
 
