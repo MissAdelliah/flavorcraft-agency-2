@@ -1,11 +1,11 @@
 # FlavorCraft Labs – Manual QA Test Plan
 
-Project: FlavorCraft Agency 2 – Team Alpha
-Role: Quality Assurance Lead
-QA Responsible: Julie Thronæs
-Product Owner: Monde Sineke
-Testing Type: Manual Testing
-Status: Draft – To be updated throughout development
+- Project: FlavorCraft Agency 2 – Team Alpha
+- Role: Quality Assurance Lead
+- QA Responsible: Julie Thronæs
+- Product Owner: Monde Sineke
+- Testing Type: Manual Testing
+- Status: Draft – To be updated throughout development
 
 
 # 1. Test Objectives
