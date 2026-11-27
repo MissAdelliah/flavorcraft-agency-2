@@ -42,20 +42,22 @@ Name - Role - GitHub
 
 ## Tech Stack
 
-| Tool               | Technology                 |
-| ------------------ | -------------------------- |
-| Framework          | Next.js (React)            |
-| Language           | TypeScript                 |
-| Styling            | Tailwind                   |
-| Package manager    | npm                        |
-| API                | Noroff Recipe Book API v2  |
-| Design             | Figma                      |
-| Version control    | Git & GitHub               |
-| Project management | GitHub Projects            |
-| Performance        | Google Lighthouse          |
-| Testing            | Manual testing             |
-| Analytics          | <!-- Add selected tool --> |
-| Deployment         | Vercel                     |
+| Tool               | Technology                |
+| ------------------ | ------------------------- |
+| Framework          | Next.js (React)           |
+| Language           | TypeScript                |
+| Styling            | Tailwind                  |
+| Package manager    | npm                       |
+| API                | Noroff Recipe Book API v2 |
+| Design             | Figma                     |
+| Version control    | Git & GitHub              |
+| Project management | GitHub Projects           |
+| Performance        | Google Lighthouse         |
+| Testing            | Manual testing            |
+| Analytics          | Google Analytics 4,       |
+|                    | Google Search Console,    |
+|                    | Microsoft Clarity         |
+| Deployment         | Vercel                    |
 
 ## Project Folder Structure EXAMPLE (needs to be established) (devs to update)
 
