@@ -65,59 +65,47 @@ The proposed structure is subject to the team's final framework and technology s
 ```text
 flavorcraft-agency-2/
 ├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   ├── workflows/
 │   └── pull_request_template.md
 │
 ├── public/
 │
 ├── src/
-│   ├── assets/
-│   │   ├── fonts/
-│   │   ├── icons/
-│   │   └── images/
+│   ├── assets/ (logo, favicon)
+│
+│   ├── app/
+│   │   ├── page.tsx
+│   │   ├── layout.tsx
+│   │   ├── recipe/[id]/page.tsx
+│   │   ├── favorites/page.tsx
+│   │
 │   │
 │   ├── components/
-│   │   ├── ui/
-│   │   ├── recipes/
-│   │   ├── search/
+│   │   ├── ui/ Header.tsx, Footer.tsx
+│   │   ├── recipes/ RecipeCard.tsx
+│   │   ├── search/ SearchBar.tsx
 │   │   └── favorites/
 │   │
-│   ├── context/
-│   ├── hooks/
-│   ├── layouts/
-│   ├── pages/
-│   ├── routes/
+│   ├── hooks/ useFavorites.ts (read and write favorites in localStorage)
 │   ├── services/
-│   │   ├── api/
+│   │   ├── api/ (all api calls)
 │   │   └── analytics/
 │   │
-│   ├── styles/
-│   ├── types/
+│   ├── types/ product.ts
 │   ├── utils/
 │   │   └── seo/
 │   │
-│   ├── App.tsx
-│   └── main.tsx
 │
-├── tests/
-│   ├── unit/
-│   ├── integration/
-│   └── e2e/
-│
-├── .env.example
 ├── .gitignore
 ├── .prettierrc
 ├── eslint.config.js
-├── index.html
 ├── package.json
 ├── package-lock.json
 ├── tsconfig.json
-├── vite.config.ts
 │
 ├── AI_LOG.md
 ├── CLIENT_BRIEF.md
 ├── CONTRIBUTING.md
+├── QA_TEST_PLAN.md
 ├── WORKFLOW_FRAMEWORK_CONDUCT.md
 └── README.md
 ```
@@ -127,20 +115,24 @@ flavorcraft-agency-2/
 Prerequisites
 
 - Git
-- Node.js (version to be confirmed)
+- Node.js **v20.9.0 or higher**
+- npm (comes with Node.js)
+
+Check your node version with `node -v`
+
 - Access to the shared GitHub repository
 
 # Installation
 
 Clone the repository and navigate into the project directory:
-git clone <repository-url>
-cd <repository-name>
+`git clone https://github.com/MissAdelliah/flavorcraft-agency-2.git`
+`cd flavorcraft-agency-2`
 
-Once the application has been initialized, if npm and a dev script are selected:
-npm install
-npm run dev
+Once the application has been initialized:
+`npm install`
+`npm run dev`
 
-Open the local development URL shown in the terminal.
+Open the local development URL shown in the terminal (usually http://localhost:3000)
 
 # Git Workflow
 
